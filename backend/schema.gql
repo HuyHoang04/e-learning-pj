@@ -8,7 +8,7 @@ type CourseDto {
   abstract: String
   createdAt: DateTime!
   updatedAt: DateTime!
-  keyLearnings: [String!]
+  keyLearnings: [String!]!
 }
 
 """
